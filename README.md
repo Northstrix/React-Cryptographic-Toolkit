@@ -10,6 +10,42 @@ Use it at your own risk!
 
 Check it out at https://northstrix.github.io/React-Cryptographic-Toolkit/
 
+The related article is available at https://medium.com/@Northstrix/react-and-cryptography-creating-my-own-toolkit-40944af4d534
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/About.png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/String%20encryption%20form%20(ChaCha20).png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/Midbar-Compatible%20AES-256%20CBC.png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/String%20encryption%20form%20(Serpent-256%20CBC).png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/String%20encryption%20form%20(Twofish-256%20CBC).png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/String%20encryption%20form%20(ChaCha20%20%2B%20AES-256%20CBC).png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/String%20encryption%20form%20(ChaCha20%20%2B%20Serpent-256%20CBC).png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/String%20encryption%20form%20(ChaCha20%20%2B%20Twofish-256%20CBC).png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/Web%20page%20with%20HMAC%20form.png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/SHA-256.png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/chrome_FStyEEn6Ct.gif)
+
+</br>
+
+Employed encryption schemes:
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/ChaCha20%20File%20Encryption.png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/ChaCha20%20File%20Encryption%20(Chunked).png)
+
+![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/ChaCha20%20(Chunked)%20%2B%20Block%20Cipher%20File%20Encryption.png)
+
+![image text](https://github.com/Northstrix/In-Browser-File-Encrypter/blob/main/V1.0/Media/Encryption%20Diagram.drawio.png?raw=true)
+
 </br>
 
 The project utilizes the following templates:
