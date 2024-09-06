@@ -1,0 +1,30 @@
+.homecreditaboutform-screen-1 {
+    background: rgba(255, 255, 255, 0.94); /* White background with 95% opacity */
+    position: fixed; /* Fixed position to center it on the screen */
+    top: calc(50% + 15px); /* Centered vertically with a slight offset */
+    left: 50%; /* Centered horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's own dimensions */
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.8); /* Shadow effect with 70% opacity */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.homecreditaboutform-content {
+    z-index: 1; /* Ensure content is above the background */
+    position: relative; /* Position relative to the parent */
+    height: auto; /* Height adjusts based on content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    padding: 30px; /* Padding around content */
+    color: #161616; /* Set text color to #161616 */
+}
+
+.regular-font {
+    color: #161616; /* Ensure headings are also #161616 */
+}
+
+.disclaimer-warning {
+    color: #ff0000; /* Warning text color */
+}

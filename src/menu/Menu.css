@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 70px; /* Space for fixed header */
+    color: #333; /* Default text color */
+}
+
+nav {
+    background-color: #242526; /* Dark background for the nav */
+    position: fixed; /* Fix the nav to the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 70px; /* Fixed height for the menu bar */
+    z-index: 99; /* Ensure it is above other content */
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 1300px;
+    margin: auto; /* Center the wrapper */
+    height: 70px; /* Ensure the wrapper matches the nav height */
+}
+
+.logo {
+    flex: 0 0 auto; /* Prevents the logo from growing */
+}
+
+.logo img {
+    height: 48px; /* Adjust as needed */
+    width: auto;
+    vertical-align: middle;
+    transition: transform 0.3s ease; /* Optional: adds a smooth rotation effect */
+}
+
+@media screen and (max-width: 970px) {
+    .logo img {
+        height: 46px; /* Slightly smaller on mobile */
+    }
+}
+
+.menu-btn {
+    display: none; /* Hidden by default, shown on mobile */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-btn.active {
+    display: flex; /* Show when menu is open */
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links.show {
+    display: block; /* Show the menu when open */
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: #f2f2f2; /* Light text color */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s ease;
+    white-space: nowrap; /* Prevent text wrapping in main menu */
+}
+
+.nav-links a:hover {
+    background: #3A3B3C; /* Hover background color */
+}
+
+.drop-menu {
+    display: none; /* Hide dropdowns by default */
+    position: absolute;
+    background-color: #444; /* Dark background for dropdown */
+    z-index: 1000;
+    min-width: 180px; /* Minimum width for dropdown */
+    padding: 10px 0; /* Vertical padding for dropdown */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Shadow for dropdown */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.nav-links li:hover .drop-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+.drop-menu li {
+    text-align: center; /* Center dropdown items */
+}
+
+.drop-menu li a {
+    width: 100%; /* Make the link fill the entire width */
+    display: block;
+    padding: 10px 20px; /* Padding for dropdown items */
+    font-weight: 400;
+    border-radius: 5px; /* Rounded corners */
+    white-space: nowrap; /* Prevent text wrapping */
+    color: #f2f2f2; /* Light text color for dropdown items */
+}
+
+.drop-menu li a:hover {
+    background: #3A3B3C; /* Hover background for dropdown items */
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-btn {
+        display: flex; /* Show hamburger menu on mobile */
+    }
+
+    .nav-links {
+        display: none; /* Hide links by default on mobile */
+        flex-direction: column;
+        width: 100%;
+        background-color: #333; /* Background color for mobile menu */
+        position: absolute;
+        top: 70px; /* Adjust based on your header height */
+        left: 0;
+        padding: 50px 10px; /* Padding for mobile menu */
+        line-height: 50px;
+        overflow-y: auto; /* Enable vertical scrolling */
+        max-height: calc(100vh - 70px); /* Limit height to viewport */
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
+        transition: all 0.3s ease;
+    }
+
+    .nav-links.show {
+        display: flex; /* Show links when menu is open */
+    }
+
+    .nav-links li {
+        width: 100%; /* Full width for mobile items */
+    }
+
+    .drop-menu {
+        position: static; /* Make dropdown static on mobile */
+        opacity: 1; /* Show dropdown */
+        top: 65px; /* Position below the menu item */
+        visibility: visible;
+        padding-left: 0; /* Reset padding */
+        width: 100%; /* Full width for dropdown */
+        max-height: none; /* Allow full height */
+        box-shadow: none; /* Remove shadow on mobile */
+    }
+
+    .drop-menu li {
+        text-align: center; /* Center dropdown items in mobile menu */
+    }
+
+    .drop-menu li a {
+        padding: 10px 20px; /* Adjust padding for dropdown items */
+    }
+}
+
+nav input {
+    display: none; /* Hide radio inputs */
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #242526; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3A3B3C; /* Thumb color */
+}
+
+/* Additional styles for better mobile experience */
+@media screen and (max-width: 970px) {
+    .nav-links {
+        padding-top: 70px; /* Space for fixed header */
+    }
+
+    .nav-links li a,
+    .nav-links .mobile-item {
+        padding: 10px 20px; /* Padding for mobile items */
+    }
+
+    .drop-menu li a {
+        padding: 10px 20px; /* Padding for dropdown items */
+    }
+}
