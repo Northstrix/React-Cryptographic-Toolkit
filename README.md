@@ -12,6 +12,8 @@ Check it out at https://northstrix.github.io/React-Cryptographic-Toolkit/
 
 The related article is available at https://medium.com/@Northstrix/react-and-cryptography-creating-my-own-toolkit-40944af4d534
 
+SourceForge page: https://sourceforge.net/projects/react-cryptographic-toolkit/
+
 ![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/About.png)
 
 ![image text](https://github.com/Northstrix/React-Cryptographic-Toolkit/blob/main/media/String%20encryption%20form%20(ChaCha20).png)
