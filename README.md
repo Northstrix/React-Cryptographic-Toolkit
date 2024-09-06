@@ -5,4 +5,4 @@ You can use this app to encrypt your data, hash strings, and calculate tags usin
 
 This app is provided with no warranty or guarantees of any kind.
 
-se it at your own risk!
+Use it at your own risk!
