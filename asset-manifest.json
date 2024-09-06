@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Cryptographic-Toolkit/static/css/main.fb0b50be.css",
+    "main.js": "/React-Cryptographic-Toolkit/static/js/main.f0993ba4.js",
+    "static/js/453.a64c2895.chunk.js": "/React-Cryptographic-Toolkit/static/js/453.a64c2895.chunk.js",
+    "static/media/morgan-petroski-Ju_epyz921s-unsplash.jpg": "/React-Cryptographic-Toolkit/static/media/morgan-petroski-Ju_epyz921s-unsplash.f776bb9709e6cdcad9d7.jpg",
+    "static/media/shai-pal-tNklhdD_D9o-unsplash.jpg": "/React-Cryptographic-Toolkit/static/media/shai-pal-tNklhdD_D9o-unsplash.cad52251492af091f964.jpg",
+    "static/media/micah-camper--9PsvIEPZP4-unsplash.jpg": "/React-Cryptographic-Toolkit/static/media/micah-camper--9PsvIEPZP4-unsplash.e5f8064cd11d9ab54509.jpg",
+    "static/media/r-k-lFtdsMzJlGk-unsplash.jpg": "/React-Cryptographic-Toolkit/static/media/r-k-lFtdsMzJlGk-unsplash.9db9380c3a76e3ad9f2f.jpg",
+    "static/media/jakob-rosen-7C00d3z3ssU-unsplash.jpg": "/React-Cryptographic-Toolkit/static/media/jakob-rosen-7C00d3z3ssU-unsplash.51bdc2d3c7ae91d1049f.jpg",
+    "static/media/slava-keyzman-AxpiddAYfg8-unsplash.jpg": "/React-Cryptographic-Toolkit/static/media/slava-keyzman-AxpiddAYfg8-unsplash.838d0823a50e355a46c6.jpg",
+    "static/media/pexels-v-h-1454055-2804038.jpg": "/React-Cryptographic-Toolkit/static/media/pexels-v-h-1454055-2804038.70b4cf8f6de5c13010cc.jpg",
+    "static/media/logo.png": "/React-Cryptographic-Toolkit/static/media/logo.558ba71a57825676af36.png",
+    "index.html": "/React-Cryptographic-Toolkit/index.html",
+    "main.fb0b50be.css.map": "/React-Cryptographic-Toolkit/static/css/main.fb0b50be.css.map",
+    "main.f0993ba4.js.map": "/React-Cryptographic-Toolkit/static/js/main.f0993ba4.js.map",
+    "453.a64c2895.chunk.js.map": "/React-Cryptographic-Toolkit/static/js/453.a64c2895.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb0b50be.css",
+    "static/js/main.f0993ba4.js"
+  ]
+}
